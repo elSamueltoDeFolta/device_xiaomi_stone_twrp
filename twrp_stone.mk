@@ -27,3 +27,6 @@ PRODUCT_DEVICE := stone
 PRODUCT_NAME := twrp_stone
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := stone,gemstone,moonstone,sunstone
