@@ -184,8 +184,8 @@ TW_CUSTOM_CLOCK_POS := "50"
 TW_CUSTOM_BATTERY_POS := "790"
 
 # Maintainer
-TW_DEVICE_VERSION := gawasvedraj
-OF_MAINTAINER := gawasvedraj
+TW_DEVICE_VERSION := VictoriaVDeFalsa
+OF_MAINTAINER := VictoriaVDeFalsa
 
 # Ofox flags
 FOX_VIRTUAL_AB_DEVICE := 1
