@@ -201,6 +201,11 @@ SHRP_PATH := device/xiaomi/stone
 SHRP_FLASH := 0
 SHRP_AB := true
 
+# PBRP flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+
 # screen settings
 OF_SCREEN_H := 2400
 OF_STATUS_H := 100
