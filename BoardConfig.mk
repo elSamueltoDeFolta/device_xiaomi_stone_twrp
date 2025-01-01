@@ -183,6 +183,21 @@ OF_IGNORE_LOGICAL_MOUNT_ERRORS := 1
 OF_USE_GREEN_LED := 0
 OF_MAINTAINER := VictoriaVDeFalsa V1
 
+# Shrp Flags
+SHRP_MAINTAINER := VictoriaVDeFalsa V1
+SHRP_DEVICE_CODE := STONE
+SHRP_REC_TYPE := TREBLE
+SHRP_DEVICE_TYPE := AB
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sdcard
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/by-name/boot
+SHRP_EXPRESS := true
+
 # screen settings
 OF_SCREEN_H := 2400
 OF_STATUS_H := 100
