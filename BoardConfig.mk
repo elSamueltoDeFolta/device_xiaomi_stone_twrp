@@ -199,9 +199,6 @@ SHRP_REC := /dev/block/by-name/boot
 SHRP_EXPRESS := true
 SHRP_PATH := device/xiaomi/stone
 SHRP_FLASH := 0
-SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
-SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
-SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
 SHRP_AB := true
 
 # screen settings
