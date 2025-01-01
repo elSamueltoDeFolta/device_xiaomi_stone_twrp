@@ -187,7 +187,7 @@ OF_MAINTAINER := VictoriaVDeFalsa V1
 SHRP_MAINTAINER := VictoriaVDeFalsa V1
 SHRP_DEVICE_CODE := STONE
 SHRP_REC_TYPE := TREBLE
-SHRP_DEVICE_TYPE := AB
+SHRP_DEVICE_TYPE := A/B
 SHRP_NOTCH := true
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sdcard
@@ -197,6 +197,12 @@ SHRP_FLASH := 1
 SHRP_DARK := true
 SHRP_REC := /dev/block/by-name/boot
 SHRP_EXPRESS := true
+SHRP_PATH := device/xiaomi/stone
+SHRP_FLASH := 0
+SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
+SHRP_FONP_2 := /sys/class/leds/led:torch_1/brightness
+SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
+SHRP_AB := true
 
 # screen settings
 OF_SCREEN_H := 2400
